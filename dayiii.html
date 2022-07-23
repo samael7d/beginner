@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Navigation Bar</title>
+        <link rel="stylesheet" href="dayiii.css">
+    </head>
+    <body>
+       <nav>
+           <ul class="topnav" id="onclickdown">
+               <li><a href="#Home">Home</a></li>
+               <li><a href="#News">News</a></li>
+               <li><a href="#About">About</a></li>
+               <li><a href="#Contact">Contact</a></li>
+               <li class="topnav-right"><a href="#Sign up">Sign up</a></li>
+               <li class="topnav-right"><a href="#Sign in">Sign in</a></li>
+               <li class="hamburger"><a href="javascript:void(0);" onclick="dropdownmenu()">&#9776;</a></li>
+           </ul>
+           
+           <div class="container" id="lgradient-1">
+               <div class="row">
+                   <div class="col-6">
+                      <div class="leftcol">
+                         <h1 class="large">Hustling Hunger</h1>
+                          <h1 class="large">Go HungerX24</h1>
+                      </div>
+                       
+                        <form>
+                       <div class="leftcol">
+                           <h2>Username</h2>
+                           <input class="inputbox" type="text" placeholder="Username" name="Username">
+                           <h2>Password</h2>         <input class="inputbox" type="text" placeholder="Password" name="Password">        
+                       </div>
+                   </form>
+                       
+                   </div>
+                   <div class="col-6">
+                        <div class="rightcol">
+                          <div class="videocontainer"> 
+                              <iframe width="560" height="315" src="https://www.youtube.com/embed/JTqaxSj7umI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </div>  
+                        </div>
+                   </div>
+               </div>
+           </div>
+           <header>
+                <h1 class="section2" >Hunger is for 24x</h1>
+           </header>
+           <div class="container">
+               <div class="row">
+                  <div class="col-4">
+                      <div class="box">
+                         <div class="icon">
+                             <img src="food.jpg" height="180" width="180"> 
+                         </div>
+                         <label>vegetarian</label>
+                          <p>je jednostavno probni tekst koji se koristi u tiskarskoj i slovoslagarskoj industriji. Odavno je uspostavljena činjenica da čitača ometa razumljivi tekst dok gleda raspored elemenata na stranici.</p>
+                      </div>
+                  </div>
+                  <div class="col-4">
+                      <div class="box">
+                         <div class="icon">
+                             <img src="food.jpg" height="180" width="180"> 
+                         </div>
+                         <label>Non-vegetarian</label>
+                          <p>je jednostavno probni tekst koji se koristi u tiskarskoj i slovoslagarskoj industriji. Odavno je uspostavljena činjenica da čitača ometa razumljivi tekst dok gleda raspored elemenata na stranici.</p>
+                      </div>
+                  </div>
+                   <div class="col-4">
+                      <div class="box">
+                         <div class="icon">
+                             <img src="food.jpg" height="180" width="180"> 
+                         </div>
+                         <label>Cuisine</label>
+                          <p>je jednostavno probni tekst koji se koristi u tiskarskoj i slovoslagarskoj industriji. Odavno je uspostavljena činjenica da čitača ometa razumljivi tekst dok gleda raspored elemenata na stranici.</p>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-12">
+                      <button class="iwantmore">I   Want More</button> 
+                      </div>
+                  </div>
+               </div>
+           </div>
+           <hr>
+           <div class="container">
+            <div class="row">
+               <div class="col-7">
+                  <article>
+                       <p>
+                          je jednostavno probni tekst koji se koristi u tiskarskoj i slovoslagarskoj industriji. Odavno je uspostavljena činjenica da čitača ometa razumljivi tekst dok gleda raspored elemenata na stranici.je jednostavno probni tekst koji se koristi u tiskarskoj i slovoslagarskoj industriji. Odavno je uspostavljena činjenica da čitača ometa razumljivi tekst dok gleda raspored elemenata na stranici.
+                       </p> 
+                  </article>
+               </div>
+               <div class="col-5">
+                  <div class="imgicon">
+                     <img src="food1.jpg" height="260" width="500">
+                  </div>
+               </div>
+            </div>
+           </div>
+           <footer class="footing">
+             <div class="row">
+               <div class="col-3 mobilestack">
+                  <h1>Company</h1>
+                  <ul>
+                    <li>About</li>
+                    <li>Blogs</li>
+                    <li>Career</li>
+                  </ul>
+               </div>
+                 <div class="col-3 mobilestack">
+                  <h1>Servings</h1>
+                  <ul>
+                    <li>Vegetarian</li>
+                    <li>Non-Vegetarian</li>
+                    <li>Cuisine</li>
+                  </ul>
+               </div>
+               <div class="col-3 mobilestack">
+                  <h1>Events</h1>
+                  <ul>
+                    <li>Weekly Hburst</li>
+                    <li>Monthly Meal</li>
+                    <li>Drawouts</li>
+                  </ul>
+               </div>
+               <div class="col-3 mobilestack">
+                  <h1>Sponsering</h1>
+                  <ul>
+                    <li>Freshers</li>
+                    <li>Farewell</li>
+                    <li>Kairos</li>
+                  </ul>
+               </div>
+             </div>
+           </footer>
+           
+           <script>
+              function dropdownmenu(){
+                  var x=document.getElementById("onclickdown");
+                  if (x.className=== "topnav"){
+                      x.className += " responsive";
+                  }
+                  else{
+                      x.className= "topnav";
+                  }
+              }
+           </script>
+       </nav>    
+    </body>
+</html>

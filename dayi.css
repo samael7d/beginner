@@ -1,0 +1,54 @@
+h1, h2{text-align: center;
+   text-shadow: 2px 2px 5px black;
+    text-align: center;
+}
+/*h2{
+    color: rgb(0, 204, 255); 
+    text-shadow: 1px 1px 3px pink;
+    text-align: center;
+}
+
+body{
+    background-color: plum;
+}*/
+
+.square {
+         background: linear-gradient(to left, #00ccff, #b3f0ff);
+        }
+#circle{
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+}
+body{
+    background-image: url(tech.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div>.bordering{
+    border: 5px dashed red;
+}
+ul li{
+    color: white;
+    font-size: 20px;
+}
+ul>li{
+    color: yellow;
+    font-size: 20px;
+}    text-align: center;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: yellow;
+    /*letter-spacing: 10px;*/
+    text-transform: uppercase;
+    word-spacing: 20px;
+}
+.Pokemon{
+    line-height: 2em;
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+}
